@@ -1,0 +1,60 @@
+# 데이터 파일 (개인정보 포함 가능)
+*.csv
+*.parquet
+*.json
+*.jsonl
+
+# 압축 파일
+*.zip
+*.tar.gz
+
+# 노션 내보내기
+notion/
+
+# 발표/보고서 자료
+발표/
+보고서/
+
+# 크롤링 결과
+크롤링 결과/
+board_crawling/
+
+# 포트폴리오 (개인용)
+*포트폴리오*.md
+포트폴리오_템플릿.md
+
+# 임시 파일
+*temp*
+*_temp*
+drive-download-*
+
+# 스크린샷
+*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 환경
+.env
+.venv
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
